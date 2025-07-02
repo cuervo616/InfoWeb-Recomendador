@@ -1,53 +1,58 @@
+:root {
+  --color-bg: #181818;
+  --color-card: #262626;
+  --color-header: #002856;
+  --color-accent: #ffffff;
+  --color-text: #f1f1f1;
+  --color-text-secondary: #cccccc;
+}
+
 body {
-  font-family: "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
-header {
-  background-color: #002856;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #e0e0e0;
-  padding: 0.5rem;
-}
-nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #004080;
-  font-weight: bold;
-}
-.hero {
-  background-color: #ffffff;
-  padding: 3rem;
-  text-align: center;
-}
-.hero h1 {
-  margin-bottom: 1rem;
-}
-.content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
-}
-.box {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+
+header,
 footer {
-  background-color: #004080;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+  background-color: var(--color-header);
+  color: var(--color-text);
+}
+
+.card {
+  background-color: var(--color-card);
+  color: var(--color-text);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.hero {
+  background-color: var(--color-card);
+  border-radius: 12px;
+  padding: 3rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-text);
+}
+
+h5,
+p,
+li {
+  color: var(--color-text-secondary);
+}
+
+.card-title {
+  color: var(--color-accent);
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.small {
+  color: var(--color-text-secondary);
 }
