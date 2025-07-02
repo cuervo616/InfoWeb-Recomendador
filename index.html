@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Informativa</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --color-bg: #181818;
+        --color-card: #262626;
+        --color-header: #002856;
+        --color-accent: #ffffff;
+        --color-text: #f1f1f1;
+        --color-text-secondary: #cccccc;
+      }
+
+      body {
+        background-color: var(--color-bg);
+        color: var(--color-text);
+      }
+
+      header,
+      footer {
+        background-color: var(--color-header);
+        color: var(--color-text);
+      }
+
+      .card {
+        background-color: var(--color-card);
+        color: var(--color-text);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      }
+
+      .hero {
+        background-color: var(--color-card);
+        border-radius: 12px;
+        padding: 3rem;
+        max-width: 900px;
+        margin: 2rem auto;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: var(--color-text);
+      }
+
+      h5,
+      p,
+      li {
+        color: var(--color-text-secondary);
+      }
+
+      .card-title {
+        color: var(--color-accent);
+      }
+
+      ul li {
+        margin-bottom: 8px;
+      }
+
+      .small {
+        color: var(--color-text-secondary);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="text-white py-4 text-center">
+      <h1 class="h1 fw-bold">
+        Recomendador Docente de la Universidad de Cuenca
+      </h1>
+    </header>
+
+    <section class="hero text-center">
+      <h2 class="h4 fw-semibold mx-auto" style="max-width: 800px">
+        💡 En educación la intuición importa, pero acompañada de datos
+        transforma decisiones.
+      </h2>
+    </section>
+
+    <section class="container py-5">
+      <!-- Tarjeta completa -->
+      <div class="row mb-4">
+        <div class="col-12">
+          <div class="card shadow rounded-3 p-4">
+            <h2 class="card-title fw-bold mb-3" style="text-align: center">
+              🗄️ Asignación Docente Basada en Datos
+            </h2>
+
+            <div class="row align-items-center">
+              <!-- Imagen a la izquierda -->
+              <div class="col-md-6 text-center mb-3 mb-md-0">
+                <img
+                  src="img/tema1.png"
+                  alt="Imagen relacionada con Tema 1"
+                  class="img-fluid rounded"
+                  style="max-height: 500px"
+                />
+              </div>
+
+              <!-- Lista de texto a la derecha -->
+              <div class="col-md-6">
+                <h2>Objetivo:</h2>
+                <h3 class="fw-bold mb-3">
+                  Recomendar docentes y alternativas donde sus conocimientos son
+                  mejor valorados, combinando experiencia, opinión, competencias
+                  y afinidad.
+                </h3>
+                <ul class="mb-0">
+                  <li>Recomendar docentes con mayor afinidad temática.</li>
+                  <li>Valorar experiencia y trayectoria académica.</li>
+                  <li>Incorporar opiniones de estudiantes.</li>
+                  <li>Considerar competencias clave para cada materia.</li>
+                  <li>Generar alternativas inteligentes de asignación.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center">
+        🕒 Asignar docentes con datos optimiza y fortalece.
+      </h3>
+
+      <!-- Tres tarjetas en fila -->
+      <div class="row g-4 mb-4">
+        <div class="col-md-4">
+          <div class="card shadow rounded-3 p-3 h-100">
+            <img class="card-img-top" src="img/icon1.png" alt="Icono 1" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Los datos tienen poder y se pueden usar para tomar decisiones
+                inteligentes.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow rounded-3 p-3 h-100">
+            <img class="card-img-top" src="img/icon2.png" alt="Icono 2" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Perfiles docentes sólidos, decisiones más acertadas.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow rounded-3 p-3 h-100">
+            <img class="card-img-top" src="img/icon3.png" alt="Icono 3" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Reduce la carga administrativa y respalda las decisiones con
+                datos.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta completa -->
+      <div class="row mb-4">
+        <div class="col-12">
+          <div class="card shadow rounded-3 p-4">
+            <h2 class="card-title fw-bold" style="text-align: center">
+              💠 El Motor del Recomendador Docente
+            </h2>
+            <img
+              class="card-img-top mt-3"
+              src="img/formula.png"
+              alt="Fórmula"
+            />
+            <h3 class="fw-bold text-center mt-4">
+              El modelo se adapta al nivel del estudiante
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dos tarjetas en fila -->
+      <div class="row g-4">
+        <!-- Primera tarjeta -->
+        <div class="col-md-6">
+          <div class="card shadow rounded-3 p-3 h-100">
+            <h5 class="card-title fw-bold mb-3 text-center">
+              Transformando Opiniones en Valor
+            </h5>
+            <h6 class="text-center mb-3">Clasificación de Comentarios</h6>
+            <p class="card-text">
+              La <b>clasificación y cuantificación de comentarios</b> ha
+              permitido transformar las opiniones de los estudiantes en
+              información valiosa y accionable. Mediante técnicas avanzadas de
+              análisis de texto, el sistema identifica patrones, sentimientos y
+              temas recurrentes, facilitando una evaluación objetiva del
+              desempeño docente.
+            </p>
+
+            <img
+              class="img-fluid rounded"
+              src="img/Comentarios Preprocesados.png"
+              alt="Robertuito"
+              style="
+                max-height: 400px;
+                object-fit: contain;
+                display: block;
+                margin: 0 auto;
+              "
+            />
+          </div>
+        </div>
+
+        <!-- Segunda tarjeta -->
+        <div class="col-md-6">
+          <div class="card shadow rounded-3 p-3 h-100">
+            <h5 class="card-title fw-bold mb-3 text-center">
+              El Perfil Docente
+            </h5>
+            <p class="card-text">
+              El <b>perfil docente generado ha sido altamente valorado</b> por
+              los usuarios, quienes destacaron su capacidad para
+              <b
+                >reflejar de manera precisa las competencias, fortalezas y áreas
+                de mejora</b
+              >
+              de cada docente. <br />
+              La claridad en la presentación de los datos, junto con la
+              <b>integración de opiniones estudiantiles y métricas objetivas</b
+              >, ha fortalecido la confianza en el sistema, logrando una
+              <b>aceptación superior al 90%</b> entre los directores de carrera.
+            </p>
+            <img
+              class="img-fluid rounded"
+              src="img/perfil.png"
+              alt="Robertuito"
+              style="
+                max-height: 400px;
+                object-fit: contain;
+                display: block;
+                margin: 0 auto;
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-white text-center py-3 mt-4">
+      <p class="small mb-0">
+        &copy; 2025 Sitio Informativo. Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

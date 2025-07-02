@@ -1,0 +1,6 @@
+      <p>
+        Pablo Quito <br />
+        Juan Valdiviezo <br />
+        Facultad de Ingeniería <br />
+        Ingeniería en Ciencias de la Computación <br />
+      </p>
